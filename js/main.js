@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	}
 
+	// Hide navbar after cliking any anchor tag
 	let anchor = document.getElementsByClassName('nav-link');
 	for( let anc of anchor ) {
 		anc.addEventListener('click', function(e) {
