@@ -1,0 +1,120 @@
+@media all and (min-width: 992px) {
+    .navbar .dropdown-menu-end {
+        right: auto;
+        left: 0;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 110%;
+        transform: rotateX(0deg);
+    }
+    
+}
+
+@media screen and (min-width: 840px) {
+    body{
+        overflow-x: hidden;
+    }
+    #hero-section .content{
+        text-align: left;
+        width: 80%;
+        margin: 13rem auto 0 auto;
+    }
+    #hero-section .content h2{
+        font-size: 4rem;
+        width: 60%;
+    }
+    #hero-section .content p{
+        width: 60%;
+    }
+    #hero-section svg{
+        left: unset;
+        right: -5%;
+        top: -15%;
+        width: 1000px;
+    }
+    #features-section{
+        margin-top: 20rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 1220px) {
+    body{
+        overflow-x: hidden;
+    }
+    #hero-section .content{
+        margin: 15rem auto 0 auto;
+    }
+    #hero-section .content h2{
+        font-size: 5rem;
+    }
+    #hero-section svg {
+        position: absolute;
+        z-index: -1;
+        left: unset;
+        right: -5%;
+        top: -35%;
+        overflow: hidden;
+        width: 1500px;
+    }
+} 
+
+
+/* Large Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Medium Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .team-details {
+        margin: 0 2rem;
+        margin-top: -7.5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+/* Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .team-details {
+        margin: 0 10rem;
+        margin-top: -7.5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+    .counter-body span{
+        font-size: 12rem;
+    }
+    .team-details {
+        margin: 0 8rem;
+        margin-top: -7.5rem;
+        margin-bottom: 3rem;
+    }
+}
