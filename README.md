@@ -3,7 +3,7 @@ Hummingbird is a Bootstrap 5 based HTML template that can directly used on IT/Te
 This is the heart of our own website [BigInteger](https://bigintbd.com/), and now planning to release this template as open source so that anyone can try this for their own purpose
 
 ## Demo
-[Live Demo] (https://hummingbird.bigintbd.com/)
+[Live Demo](https://hummingbird.bigintbd.com/)
 
 ## Preview
 ![HummingBird Perview](https://hummingbird.bigintbd.com/img/preview/hummingbird.bigintbd.com_.webp)
